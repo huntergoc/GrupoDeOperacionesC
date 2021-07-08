@@ -1,0 +1,127 @@
+body {
+  background-color: darkred;
+  font-family: 'Russo One', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+.logo-nav {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.display-4 {
+  padding-top: 40px;
+  text-align: center;
+}
+.h-3 {
+  padding-top: 20px;
+  text-align: center;
+}
+.logo-uno {
+  width: 50%;
+  border-radius: 40%;
+}
+
+#testimonial {
+  background: #292727;
+  color: aliceblue;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top: 40px;
+}
+.texto-img {
+  text-align: center;
+}
+
+.img-right {
+  border-radius: 30px;
+  -webkit-box-shadow: 5px -5px 10px rgba(50, 50, 50, 1);
+  -moz-box-shadow: 5px -5px 10px rgba(50, 50, 50, 1);
+  box-shadow: 5px -5px 10px rgba(50, 50, 50, 1);
+  }
+  .foto-llaitul {
+    border-radius: 30px;
+    padding-top: 1em;
+  }
+.img-right0 {
+  border-radius: 30px;
+}
+
+/*footer {
+  background: url(../img/#) no-repeat;
+}*/
+.header-content-left{
+  text-align: center;
+  border-radius: 30px;
+  padding-top: 65px;
+  padding-right: 30px;
+}
+.card-body {
+  align-self: auto;
+  background-color: darkred;
+  border-style: hidden;
+}
+.contactanos{
+  text-align: center;
+}
+.logo-dos {
+  align-content: center;
+}
+.section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1em;
+}
+.h3-div {
+  text-align: center;
+  text-transform: uppercase;
+}
+.parrafo-4 {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.h3-div0 {
+  text-align: center;
+  text-transform: uppercase;
+  border-right: 2px solid black;
+}
+.parrafo-6 {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.h3-div1 {
+  text-align: center;
+  text-transform: uppercase;
+  border-right: 2px solid black;
+}
+.parrafo-5 {
+  text-align: center;
+  line-height: 1.8;
+}
+.link:hover {
+  padding: 10px 30px;
+  background-color: teal;
+  color: azure;
+}
+.link {
+  text-decoration: none;
+  padding: 1em 3em;
+  margin-left: 2em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: auto;
+  width: 200px;
+}
+
+.img-bandalos {
+  border-radius: 30px;
+  width: 100%;
+}
