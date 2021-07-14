@@ -1,0 +1,186 @@
+/* PAGINA OSINT */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+}
+/* BOTON ANIMADO */
+.animated-border-button {
+    background-color: #263059;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+  }
+  
+  .animated-border-button:before,
+  .animated-border-button:after {
+    border: 0 solid transparent;
+    transition: all 0.3s;
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 24px;
+  }
+  
+  .animated-border-button:before {
+    border-top: 2px solid #263059;
+    right: 0;
+    top: -4px;
+  }
+  
+  .animated-border-button:after {
+    border-bottom: 2px solid #263059;
+    bottom: -4px;
+    left: 0;
+  }
+  
+  .animated-border-button:hover:before,
+  .animated-border-button:hover:after {
+    width: 100%;
+  }
+  /*  */
+
+body{
+    background-color: darkred;
+
+}
+/* seccion 1 */
+.div-header{
+    /* padding: 0 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: auto; */
+    justify-content:space-evenly;
+    /* padding-right: 20px; */
+}
+
+.h1-header{
+    text-transform: uppercase;
+    padding: 15px 15px;
+    text-align:center;
+}
+.lorem-header{
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+}
+.foto-header{
+    border-radius: 30px;
+    padding-top: 10px;
+    width: 30%;
+    padding-left: 10px;
+}
+.foto2-header{
+    float:right;
+    padding-top: 40px;
+    /* padding-left: 100px; */
+    padding-right: 50px;
+    /* display:block; */
+    /* flex-direction: row; */
+    /* justify-content:space-between; */
+}
+/* seccion 2 */
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.h2-container{
+    text-align: center;
+    padding-top: 20px;
+}
+.p-container{
+    text-align: right;
+    text-justify:auto;
+    margin: 5px 45px;
+}
+.img-container{
+    border-radius: 25px;
+    padding: 10px 100px;
+}
+/* PAGINA INTELIGENCIA */
+
+.body-inteligencia{
+    margin: 0;
+    padding: 0;
+}
+.div-intel{
+    gap: 20px;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+.h1-inteligencia{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.h2-inteligencia{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.p-lorem-inteligencia{
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.main-inteligencia{
+    padding: 30px 40px;
+    margin: auto;
+}
+.h1-inteligencia0{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.h2-inteligencia0{
+    padding-bottom: 20px;
+}
+.p-lorem-inteligencia0{
+    text-align: left;
+}
+.section-inteligencia{
+    color: black;
+}
+.h1-main-section{
+    text-align: center;
+
+}
+.p-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container-imagenes{
+    text-align: center;
+    align-content: center;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.mapu-imagen{
+    align-content: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+.mapu-imagen2{
+    align-content: center;
+    justify-content: center;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.mapu-imagen3{
+    align-content: center;
+    justify-content: center;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
